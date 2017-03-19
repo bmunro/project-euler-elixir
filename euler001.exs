@@ -1,5 +1,5 @@
 defmodule Euler1 do
-  def sum(_a, _b, n) when n == 0 do
+  def sum(_, _, n) when n == 0 do
     n
   end
 
